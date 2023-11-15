@@ -26,12 +26,12 @@
             'https://raw.githubusercontent.com/codingrepressor/memes/main/caa98760-559f-401c-be8f-34a331510480.jpeg',
         ];
 
-        function getRandomMeme() {
+        function getMeme() {
             const randomIndex = Math.floor(Math.random() * memes.length);
             return memes[randomIndex];
         }
 
-        document.getElementById('memeImage').src = getRandomMeme();
+        document.getElementById('memeImage').src = getMeme();
     </script>
 </body>
 </html>
